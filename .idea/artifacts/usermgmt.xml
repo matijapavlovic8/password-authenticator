@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="usermgmt">
+    <output-path>$PROJECT_DIR$/user</output-path>
+    <root id="archive" name="password_authenticator.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/usermgmt/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="password_authenticator" />
+    </root>
+  </artifact>
+</component>
